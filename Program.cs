@@ -19,7 +19,7 @@ namespace ConsoleApp
     {
         private MySqlConnection GetMySqlConnection()
         {
-            string connectionString = @"server=localhost;port=3306;database=northwind;user=root;password=mysql123;";
+            string connectionString = @"server=;port=;database=;user=;password=;"; //weite your sql con string
             return new MySqlConnection(connectionString);         
         }
         public int Create(Product p)
